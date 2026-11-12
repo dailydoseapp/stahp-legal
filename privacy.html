@@ -1,42 +1,64 @@
-Stahp Privacy Policy
-Last updated: November 2026 · Contact: dailydosetanks@gmail.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stahp — Privacy Policy</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1a1a1a; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.1rem; margin-top: 1.5rem; }
+    .meta { color: #555; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <h1>Stahp Privacy Policy</h1>
+  <p class="meta">Last updated: November 2026 · Contact: <a href="mailto:dailydosetanks@gmail.com">dailydosetanks@gmail.com</a></p>
 
-Stahp ("the app") helps you manage screen-time limits, lockdown warnings, and optional premium credits. This policy describes what data we handle and how.
+  <p>Stahp (&quot;the app&quot;) helps you manage screen-time limits, lockdown warnings, and optional premium credits. This policy describes what data we handle and how.</p>
 
-1. Data stored on your device
-Most app data stays on your phone in a local database (Room), including:
+  <h2>1. Data stored on your device</h2>
+  <p>Most app data stays on your phone in a local database (Room), including:</p>
+  <ul>
+    <li>Screen-time session counters and limit settings</li>
+    <li>Lockdown and demo-mode state</li>
+    <li>Available credits and subscription tier cached locally</li>
+    <li>Optional activity logs (lockdown events)</li>
+  </ul>
+  <p>This local database is protected by your device&apos;s operating-system security. It is not encrypted with a separate app-specific key unless your device encrypts storage at rest.</p>
 
-Screen-time session counters and limit settings
-Lockdown and demo-mode state
-Available credits and subscription tier cached locally
-Optional activity logs (lockdown events)
-This local database is protected by your device's operating-system security. It is not encrypted with a separate app-specific key unless your device encrypts storage at rest.
+  <h2>2. Account authentication</h2>
+  <p>If you sign in, we use <strong>Firebase Authentication</strong> (email / Google Sign-In) to verify your account. Firebase processes your email address according to Google&apos;s policies. If Firebase is not configured, the app may use a limited offline account stored only on your device.</p>
 
-2. Account authentication
-If you sign in, we use Firebase Authentication (email / Google Sign-In) to verify your account. Firebase processes your email address according to Google's policies. If Firebase is not configured, the app may use a limited offline account stored only on your device.
+  <h2>3. Subscriptions and payments</h2>
+  <p>Premium plans are billed through <strong>Google Play Billing</strong>. Payment details are handled by Google Play, not stored in the app. The app may cache your subscription tier, auto-renew status, and credit balance locally (and optionally sync credit state with our servers if configured). You can cancel auto-renewal from the app Profile tab (opens Google Play subscriptions) or in the Google Play Store.</p>
 
-3. Subscriptions and payments
-Premium plans are billed through Google Play Billing. Payment details are handled by Google Play, not stored in the app. The app may cache your subscription tier, auto-renew status, and credit balance locally (and optionally sync credit state with our servers if configured). You can cancel auto-renewal from the app Profile tab (opens Google Play subscriptions) or in the Google Play Store.
+  <h2>4. What we do not do</h2>
+  <ul>
+    <li>We do not sell your personal data.</li>
+    <li>We do not use lockdown logs for advertising.</li>
+    <li>We do not transmit routine screen-time metrics to our servers unless you use cloud sign-in or optional sync features described above.</li>
+  </ul>
 
-4. What we do not do
-We do not sell your personal data.
-We do not use lockdown logs for advertising.
-We do not transmit routine screen-time metrics to our servers unless you use cloud sign-in or optional sync features described above.
-5. Permissions
-The app may request:
+  <h2>5. Permissions</h2>
+  <p>The app may request:</p>
+  <ul>
+    <li><strong>Notifications</strong> — lockdown and tracking alerts</li>
+    <li><strong>Foreground service</strong> — enforce session limits while protection is active</li>
+    <li><strong>Full-screen intent</strong> — lockdown alarm overlay when a limit is breached</li>
+    <li><strong>Internet</strong> — sign-in, subscription sync, and support features</li>
+    <li><strong>Vibration / wake lock</strong> — alarm feedback during lockdown</li>
+  </ul>
 
-Notifications — lockdown and tracking alerts
-Foreground service — enforce session limits while protection is active
-Full-screen intent — lockdown alarm overlay when a limit is breached
-Internet — sign-in, subscription sync, and support features
-Vibration / wake lock — alarm feedback during lockdown
-6. Account and data deletion
-You can delete your account from the app (Profile → Legal & Support → Delete Account). This removes local app data and attempts to remove your Firebase sign-in. For leftover cloud or billing follow-up, email dailydosetanks@gmail.com from your account address. Manage or cancel Google Play subscriptions in Google Play.
+  <h2>6. Account and data deletion</h2>
+  <p>You can delete your account from the app (Profile → Legal &amp; Support → Delete Account). This removes local app data and attempts to remove your Firebase sign-in. For leftover cloud or billing follow-up, email <a href="mailto:dailydosetanks@gmail.com">dailydosetanks@gmail.com</a> from your account address. Manage or cancel Google Play subscriptions in Google Play.</p>
 
-7. Children
-The app is not directed at children under 13. We do not knowingly collect data from children.
+  <h2>7. Children</h2>
+  <p>The app is not directed at children under 13. We do not knowingly collect data from children.</p>
 
-8. Changes
-We may update this policy. The in-app copy and this page will be revised when practices change materially.
+  <h2>8. Changes</h2>
+  <p>We may update this policy. The in-app copy and this page will be revised when practices change materially.</p>
 
-Terms of Service
+  <p><a href="terms.html">Terms of Service</a></p>
+</body>
+</html>
